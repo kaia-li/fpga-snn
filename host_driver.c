@@ -23,7 +23,7 @@ void start_snn_compute();
 int wait_for_completion(int timeout_ms);
 void read_classification_result(uint8_t *result);
 
-// 示例主函数
+// 主函数
 int main() {
     uint8_t image[3072]; // CIFAR-10 32x32x3图像
     uint8_t result[10];  // 10个类别的脉冲计数
