@@ -14,7 +14,7 @@ Using FPGA for computing core: spike encoding, potential calculation, weight upd
 *spike_encoder.v - Convert pixel values ​​to time-dependent spike trains*  
 *stdp.v - Synaptic model that implements the STDP learning rule*  
 *synapse_matrix.v - Manages connections and weight updates between neurons*  
-*snn_compute.v - Integrates computational modules*  
+*compute.v - Integrates computational modules*  
 ### RF Topological structure implementation - sparse connections in the synapse_matrix module
 Closer to the principles of biological neural networks, intuitive expression of spatial relationships  
 Complex connections, high resource consumption, limited parallelism  
